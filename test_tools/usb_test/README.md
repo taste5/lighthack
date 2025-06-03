@@ -3,11 +3,12 @@ This folder contains a troubleshooting tool to verify the line of communication 
 
 1. Burn the sketch to your Arduino using the Arduino IDE.
 2. Start the Eos Family software, and connect your device to the machine running Eos (if not the same machine).
-3. Navigate to the Eos diagnostics tab ([Tab & 99]). You should see log messages about an OSC handshake completing:
+3. Navigate to Setup > Device Settings > Show Control on sidebar > OSC. Set OSC USB to enabled 
+4. Navigate to the Eos diagnostics tab ([Tab & 99]). You should see log messages about an OSC handshake completing:
 
 ![handshake messages](https://github.com/ETCLabs/OSCHardware/raw/master/test_tools/usb_test/handshake.png)
 
-4. On the diagnostics tab, click the button labeled "Incoming OSC (off)" to turn on display of OSC messages. You should see a ping message coming from your device once per second with an incrementing number argument:
+5. On the diagnostics tab, click the button labeled "Incoming OSC (off)" to turn on display of OSC messages. You should see a ping message coming from your device once per second with an incrementing number argument:
 
 ![ping messages](https://github.com/ETCLabs/OSCHardware/raw/master/test_tools/usb_test/ping.png)
 
